@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "Avenir-Roman";
+    src: url("/assets/font/avenir-roman.woff") format("woff");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&display=swap');
+
+:root {
+    --primaryFont: "Avenir-Roman";
+    --secondaryFont: "Arial", sans-serif;
+    --importedFont: 'Noto Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--importedFont);
+}
+
+.header {
+    background-color: #090b13;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 1.3rem;
+}
+
+.logo {
+    width: 4rem;
+}
+
+.login-btn {
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    font-size: 0.8rem;
+    color: #f9f9f9;
+    border: 1px solid #f9f9f9;
+    border-radius: 4px;
+    padding: 8px 15px;
+    text-decoration: none;
+}
+
+.landingPage {
+    height: calc(100vh - (1.6rem + 34.82px));
+    background-image: url("/assets/images/login-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.landingPage {
+    display: grid;
+    place-items: center;
+}
+
+.landingPage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.landingPage-cta1 {
+    width: 70%;
+}
+
+.landingPage-cta2 {
+    width: 70%;
+}
+
+.landingPage-cta-msg {
+    margin: 0.8rem 0 1.5rem 0;
+    color: #f3f3f3;
+    text-align: center;
+    font-size: 0.5rem;
+    width: 75%;
+    letter-spacing: 1.5px;
+    line-height: 0.8rem;
+}
+
+.landingPage-cta-btn {
+    margin-top: 0.6rem;
+    color: #f9f9f9;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #0063e5;
+    padding: 0.8rem 11rem;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .landingPage-container {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .landingPage-container {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .landingPage-container {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .landingPage-container {
+        width: 95%;
+    }
+
+    .landingPage-cta-btn {
+        padding: 1rem 4.5rem;
+        text-align: center;
+        font-size: 1rem;
+    }
+}
