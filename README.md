@@ -48,7 +48,8 @@ If you encounter an error like `'vite' is not recognized as an internal or exter
 
 ## Screenshots
 
-(Include screenshots of your application here)
+![image](https://github.com/dhanyathashalmali/disney-clone/assets/73874127/076e43d9-529b-4b76-b5bd-727c7b0870f4)
+![image](https://github.com/dhanyathashalmali/disney-clone/assets/73874127/e9df9150-82b9-436d-8c93-747cc142ca7c)
 
 ## Contributions
 
