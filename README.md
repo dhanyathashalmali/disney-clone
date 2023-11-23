@@ -1,44 +1,56 @@
-<<<<<<< HEAD
-# disney-clone
-=======
-# codedamn - Disney clone
+# Disney Clone Project
 
-![Design for the project](https://raw.githubusercontent.com/codedamn-projects/disney-clone/main/assets/home-desktop-design.jpg)
+This project is a clone of the Disney website interface. It has been created as part of my learning journey on [codedamn](https://codedamn.com). It showcases various features and technologies I've learned, including React components, state management, responsive design, and more.
 
-## Hello developer!
+## Features
 
-This is one of the many projects available on [codedamn](https://codedamn.com/projects) to reinforce your learning by building. If you want to become a frontend developer and learn by practicing, feel free to attempt this challenge. Feel free to check out the codedamn [frontend web developer learning path](https://codedamn.com/learning-paths) to learn more about how to become an awesome frontend developer.
+- **React Components**: Reusable components for efficient code management.
+- **State Management**: Proper state handling for dynamic content updates.
+- **Responsive Design**: A mobile-friendly interface that adapts to various screen sizes.
+- **Interactive Slider Bar**: A slider bar in the navigation for an enhanced user experience.
+- **Styling with CSS**: Custom CSS for visually appealing design elements.
 
-## Instructions
+## Technologies Used
 
-Your challenge is to build out this project and get it looking as close to the design as possible.
+- React.js
+- CSS3
+- JavaScript ES6+
+- React Slick
+- React Routes
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+## Project Setup
 
-Your project should:
+To get this project up and running on your local machine, follow these steps:
 
--   Be responsive for desktop and mobile phones
--   Have minimum functionalities and effects working
+1.  **Clone the repository:** https://github.com/dhanyathashalmali/disney-clone/
+2. **Navigate into the project directory:** cd disney-clone  
+3. **Install dependencies:** npm install
+4. **Start the development server:** npm run dev
+   
+### Troubleshooting
 
-Want some support on the challenge? [Join our discord community](https://cdm.sh/discord) and ask questions in the **#general** channel.
+If you encounter an error like `'vite' is not recognized as an internal or external command`, follow these steps:
 
-## Where to find everything
+1. Ensure Vite is installed: npm install vite --save-dev
+2. Verify your `package.json`:
 
-Your task is to build out the project as per the provided screenshots. You will find both a mobile and a desktop version of the design.
+ It should include:
+ ```json
+ "scripts": {
+   "dev": "vite --host --port 1337"
+ }
+ ```
 
-The designs are in image formats (sketch and figma designs coming soon).
+3. Try running the dev script again:
+ ```
+ npm run dev
+ ```
 
-You will find all the required assets in the `/public/assets` folder. These include images, fonts, etc.
+## Screenshots
 
-There is also a `style-guide.html` file containing the information you'll need, such as color palette and font names. Make sure to open this in the browser to see the contents.
+(Include screenshots of your application here)
 
-## Submitting solution
+## Contributions
 
-Submit your solution on the platform for the rest of the community to see. Find this project [on codedamn projects page]($https://codedamn.com/projects) for tips on how to do this.
+Contributions are welcome! Fork this repository and submit a pull request if you have suggestions or improvements.
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Send feedback!
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please visit [codedamn feedback page](https://codedamn.com/contact)
->>>>>>> 53feac4 (Initial commit)
